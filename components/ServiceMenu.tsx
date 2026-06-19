@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 import SectionHeading from "./SectionHeading";
 
 const SERVICES = [
-  { name: "Signature Haircut", price: "$25", desc: "Precision cut including wash, hot towel finish, and signature styling." },
-  { name: "Skin Fade", price: "$25", desc: "Seamless transitions from skin to length using specialized clipper work." },
-  { name: "Beard Sculpting", price: "$25", desc: "Full trim and conditioning with straight razor line-up and steam towel." },
+  { name: "Signature Haircut", price: "$16", desc: "Precision cut including wash, hot towel finish, and signature styling." },
+  { name: "Skin Fade", price: "$20", desc: "Seamless transitions from skin to length using specialized clipper work." },
+  { name: "Beard Sculpting", price: "$18", desc: "Full trim and conditioning with straight razor line-up and steam towel." },
   { name: "Scissor Cut", price: "$25", desc: "Expert hand-cut shear work for longer styles and natural texture." },
-  { name: "Hair Coloring", price: "$25", desc: "Professional grey blending or full color transformation for men." },
-  { name: "Curly & Long Hair", price: "$25", desc: "Texture-specific care, layering and shape for length and curl." },
-  { name: "Hair Shape Up", price: "$25", desc: "Essential maintenance for the hairline and neck between full cuts." },
-  { name: "Eyebrow Tinting", price: "$25", desc: "Subtle natural coverage to refine and define the brow line." },
-  { name: "Buzz Cut", price: "$25", desc: "Clean, even all-over with a precise hairline and neck finish." },
+  { name: "Hair Coloring", price: "$35", desc: "Professional grey blending or full color transformation for men." },
+  { name: "Curly & Long Hair", price: "$28", desc: "Texture-specific care, layering and shape for length and curl." },
+  { name: "Hair Shape Up", price: "$16", desc: "Essential maintenance for the hairline and neck between full cuts." },
+  { name: "Eyebrow Tinting", price: "$16", desc: "Subtle natural coverage to refine and define the brow line." },
+  { name: "Buzz Cut", price: "$18", desc: "Clean, even all-over with a precise hairline and neck finish." },
 ];
 
 export default function ServiceMenu() {

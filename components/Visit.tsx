@@ -7,7 +7,7 @@ import SectionHeading from "./SectionHeading";
 const INFO = [
   { icon: MapPin, title: "123 Fulton St", sub: "New York, NY 10038" },
   { icon: Phone, title: "(212) 571-9832", sub: "Tap to call · Walk-ins welcome" },
-  { icon: Clock, title: "Mon–Sat · 7 AM — 7 PM", sub: "Early openings · Quality service" },
+  { icon: Clock, title: "Mon–Fri · 7 AM — 6:30 PM", sub: "Sat & Sun · Closed" },
   { icon: Scissors, title: "Walk-ins Accepted", sub: "Restroom · Friendly stylists" },
 ];
 

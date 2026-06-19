@@ -6,15 +6,15 @@ import { Check, Calendar } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
 const SERVICES = [
-  "Signature Haircut — $25",
-  "Skin Fade — $25",
-  "Beard Sculpting — $25",
+  "Signature Haircut — $16",
+  "Skin Fade — $20",
+  "Beard Sculpting — $18",
   "Scissor Cut — $25",
-  "Hair Coloring — $25",
-  "Curly & Long Hair — $25",
-  "Hair Shape Up — $25",
-  "Eyebrow Tinting — $25",
-  "Buzz Cut — $25",
+  "Hair Coloring — $35",
+  "Curly & Long Hair — $28",
+  "Hair Shape Up — $16",
+  "Eyebrow Tinting — $16",
+  "Buzz Cut — $18",
 ];
 
 const inputStyle: React.CSSProperties = {
@@ -118,7 +118,7 @@ export default function BookingForm() {
                 Request Appointment
               </button>
               <p className="text-xs" style={{ color: "var(--muted-foreground)" }}>
-                Or call <a href="tel:+12125719832" style={{ color: "var(--accent)" }}>(212) 571-9832</a> — open 7 AM daily.
+                Or call <a href="tel:+12125719832" style={{ color: "var(--accent)" }}>(212) 571-9832</a> — open Mon–Fri, 7 AM – 6:30 PM.
               </p>
             </div>
           </form>

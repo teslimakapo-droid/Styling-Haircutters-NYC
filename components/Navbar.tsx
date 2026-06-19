@@ -76,7 +76,7 @@ export default function Navbar() {
             style={{ color: "var(--accent)" }}
           >
             <span className="inline-block w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "var(--accent)" }} />
-            Opens 7 AM Daily
+            Mon–Fri · 7 AM – 6:30 PM
           </span>
           <a
             href="tel:+12125719832"

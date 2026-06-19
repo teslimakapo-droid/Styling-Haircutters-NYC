@@ -6,15 +6,15 @@ import { Check, Calendar } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
 const SERVICES = [
-  "Signature Haircut — $75+",
-  "Skin Fade — $65+",
-  "Beard Sculpting — $45+",
-  "Scissor Cut — $85+",
-  "Hair Coloring — $120+",
-  "Curly & Long Hair — $85+",
-  "Hair Shape Up — $35+",
-  "Eyebrow Tinting — $25+",
-  "Buzz Cut — $40+",
+  "Signature Haircut — $25",
+  "Skin Fade — $25",
+  "Beard Sculpting — $25",
+  "Scissor Cut — $25",
+  "Hair Coloring — $25",
+  "Curly & Long Hair — $25",
+  "Hair Shape Up — $25",
+  "Eyebrow Tinting — $25",
+  "Buzz Cut — $25",
 ];
 
 const inputStyle: React.CSSProperties = {

@@ -22,7 +22,7 @@ export default function ServiceMenu() {
         index="01"
         kicker="The Menu"
         title="The Service Menu"
-        description="Masterful execution across every discipline of classic and modern barbering. Every service includes consultation and a hot-towel finish."
+        description="Classic and modern cuts, done right. Every service starts with a quick consultation and finishes with a hot towel."
       />
 
       <div

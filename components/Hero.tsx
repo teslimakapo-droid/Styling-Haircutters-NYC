@@ -78,9 +78,9 @@ export default function Hero() {
             className="mt-7 max-w-xl text-base md:text-lg leading-relaxed"
             style={{ color: "var(--muted-foreground)" }}
           >
-            Elevating the grooming experience through quality craft and friendly service.
-            Located in the heart of the Financial District at 123 Fulton St — we specialize in
-            the architecture of the perfect cut.
+            A neighborhood barber shop in the Financial District. Stop by 123 Fulton St for a
+            sharp haircut, a clean fade, or a beard trim. Friendly staff, fair prices, and
+            walk-ins are always welcome.
           </motion.p>
 
           <motion.div {...rise(0.42)} className="mt-10 flex flex-wrap items-center gap-4">
@@ -100,35 +100,32 @@ export default function Hero() {
               Call (212) 571-9832
             </a>
           </motion.div>
+
+          {/* Inline rating / trust badge */}
+          <motion.div
+            {...rise(0.54)}
+            className="mt-9 flex w-fit items-center gap-4 rounded-2xl px-5 py-3.5"
+            style={{
+              border: "1px solid var(--border)",
+              backgroundColor: "color-mix(in oklch, var(--card) 55%, transparent)",
+              backdropFilter: "blur(8px)",
+            }}
+          >
+            <div className="flex items-center gap-1" style={{ color: "var(--accent)" }}>
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Star key={i} size={15} fill="currentColor" strokeWidth={0} />
+              ))}
+            </div>
+            <span className="h-5 w-px" style={{ backgroundColor: "var(--border)" }} />
+            <p className="text-sm whitespace-nowrap">
+              <span className="font-display" style={{ fontWeight: 600, fontSize: "1.05rem" }}>
+                4.7
+              </span>
+              <span style={{ color: "var(--muted-foreground)" }}> · 258 verified reviews</span>
+            </p>
+          </motion.div>
         </div>
       </div>
-
-      {/* Rating card overlay */}
-      <motion.div
-        initial={{ opacity: 0, scale: reduce ? 1 : 0.94, y: reduce ? 0 : 20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="hidden md:block absolute z-20 rounded-2xl p-5"
-        style={{
-          right: "calc(52% - 7rem)",
-          bottom: "16%",
-          backgroundColor: "color-mix(in oklch, var(--card) 80%, transparent)",
-          backdropFilter: "blur(14px)",
-          border: "1px solid var(--border)",
-        }}
-      >
-        <div className="flex items-center gap-1 mb-2" style={{ color: "var(--accent)" }}>
-          {Array.from({ length: 5 }).map((_, i) => (
-            <Star key={i} size={13} fill="currentColor" strokeWidth={0} />
-          ))}
-        </div>
-        <p className="font-display text-lg" style={{ fontWeight: 600 }}>
-          4.7 Rating
-        </p>
-        <p className="text-xs" style={{ color: "var(--muted-foreground)" }}>
-          258 Verified Reviews
-        </p>
-      </motion.div>
     </section>
   );
 }

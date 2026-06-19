@@ -18,7 +18,7 @@ export default function Gallery() {
         index="02"
         kicker="The Work"
         title="Financial District Cut Gallery"
-        description="A showcase of recent work from our master stylists — from classic tapers to modern texture."
+        description="Some of our recent work, from classic tapers to modern textured cuts."
         align="split"
       />
 

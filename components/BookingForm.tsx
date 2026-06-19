@@ -6,15 +6,15 @@ import { Check, Calendar } from "lucide-react";
 import SectionHeading from "./SectionHeading";
 
 const SERVICES = [
-  "Signature Haircut — $16",
-  "Skin Fade — $20",
-  "Beard Sculpting — $18",
-  "Scissor Cut — $25",
-  "Hair Coloring — $35",
-  "Curly & Long Hair — $28",
-  "Hair Shape Up — $16",
-  "Eyebrow Tinting — $16",
-  "Buzz Cut — $18",
+  "Signature Haircut · $16",
+  "Skin Fade · $20",
+  "Beard Sculpting · $18",
+  "Scissor Cut · $25",
+  "Hair Coloring · $35",
+  "Curly & Long Hair · $28",
+  "Hair Shape Up · $16",
+  "Eyebrow Tinting · $16",
+  "Buzz Cut · $18",
 ];
 
 const inputStyle: React.CSSProperties = {
@@ -32,7 +32,7 @@ export default function BookingForm() {
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // No backend yet — show a client-side confirmation.
+    // No backend yet, so just show a client-side confirmation.
     setSubmitted(true);
   };
 
@@ -67,7 +67,7 @@ export default function BookingForm() {
             </h3>
             <p className="mt-3 max-w-md" style={{ color: "var(--muted-foreground)" }}>
               We&apos;ll call you at <span style={{ color: "var(--foreground)" }}>{form.phone || "your number"}</span> to confirm
-              {form.service ? <> your <span style={{ color: "var(--foreground)" }}>{form.service.split(" — ")[0]}</span></> : " your appointment"}
+              {form.service ? <> your <span style={{ color: "var(--foreground)" }}>{form.service.split(" · ")[0]}</span></> : " your appointment"}
               {form.date ? <> on <span style={{ color: "var(--foreground)" }}>{form.date}</span></> : ""}
               {form.time ? <> around <span style={{ color: "var(--foreground)" }}>{form.time}</span></> : ""}.
             </p>
@@ -118,7 +118,7 @@ export default function BookingForm() {
                 Request Appointment
               </button>
               <p className="text-xs" style={{ color: "var(--muted-foreground)" }}>
-                Or call <a href="tel:+12125719832" style={{ color: "var(--accent)" }}>(212) 571-9832</a> — open Mon–Fri, 7 AM – 6:30 PM.
+                Or call <a href="tel:+12125719832" style={{ color: "var(--accent)" }}>(212) 571-9832</a>. We're open Mon–Fri, 7 AM to 6:30 PM.
               </p>
             </div>
           </form>

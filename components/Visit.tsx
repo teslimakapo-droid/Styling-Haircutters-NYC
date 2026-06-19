@@ -7,7 +7,7 @@ import SectionHeading from "./SectionHeading";
 const INFO = [
   { icon: MapPin, title: "123 Fulton St", sub: "New York, NY 10038" },
   { icon: Phone, title: "(212) 571-9832", sub: "Tap to call · Walk-ins welcome" },
-  { icon: Clock, title: "Mon–Fri · 7 AM — 6:30 PM", sub: "Sat & Sun · Closed" },
+  { icon: Clock, title: "Mon–Fri · 7 AM – 6:30 PM", sub: "Sat & Sun · Closed" },
   { icon: Scissors, title: "Walk-ins Accepted", sub: "Restroom · Friendly stylists" },
 ];
 
@@ -20,7 +20,7 @@ export default function Visit() {
         index="04"
         kicker="The Studio"
         title="Visit the studio."
-        description="In the heart of the Financial District. Walk in, or call ahead — we'll have a chair ready."
+        description="We're right in the Financial District. Walk in whenever, or give us a call and we'll have a chair ready for you."
         align="split"
       />
 

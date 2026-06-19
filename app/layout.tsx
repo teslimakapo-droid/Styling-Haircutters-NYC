@@ -18,9 +18,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Styling Haircutters · NYC — The Art of the Modern Gentleman",
+  title: "Styling Haircutters · NYC | Barber Shop in the Financial District",
   description:
-    "Classic grooming in the heart of the Financial District. Precision cuts, skin fades, and beard sculpting at 123 Fulton St. Walk-ins welcome.",
+    "Styling Haircutters is a barber shop at 123 Fulton St in the Financial District. Haircuts, fades, beard trims, and shaves. Walk-ins welcome, open Monday to Friday.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
